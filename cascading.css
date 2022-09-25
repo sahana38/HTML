@@ -1,0 +1,130 @@
+<!doctype html> <!--version of html-->
+<html>
+    <head>
+      <!--cascading style sheet-->
+        <title> CSS introduction</title>  
+        
+        <style>
+              /*<!--
+                
+                <!--element sels=ector-->
+
+                h1{
+                color:green;
+                font-style:oblique;
+                font-size: 100px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               }
+
+              h2{
+                color:brown;
+                font-size: 100px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+              }-->*/
+
+
+              /*<!--if have unique properties above lines will be applicable-->*/
+
+              
+                /*<!--grouping selector-->*/
+              h1,h2{
+                color:rgb(165, 42, 132);
+                font-size: 30px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+              }
+   
+             /*if have common property h1,h2 are written in same curley braces*/
+
+
+             .lets{
+                color:blue;
+               }
+
+
+             .A{
+                color:rgb(186, 226, 43);
+               }
+
+             #idselector{
+                color: chocolate;
+                font-size:30px;  
+               }
+
+             body{
+             background-color:bisque;
+             background-image: url('pic.jpg'); 
+              /* for adding image*/
+             }
+                
+
+
+             .padding{     
+              /*left, top, right, bottom*/
+              padding:10px 20px; /*zoom-in & zoom-out*/
+              padding-right:  2px;
+              border: 3px solid red; /*for border*/
+              margin:100px;
+              margin-left: 12px;  /*if want change the margin*/
+              }
+
+
+              .rect{
+                border : 3px solid red; 
+                height: 100px ; /*for rectangle box*/
+                width : 200px ;
+              }
+              
+        </style>
+              
+        <link rel= "stylesheet"  href="cascading.css">
+    </head>
+    <body>
+
+        <h1 class="padding">cascading</h1>
+        <h1><marquee>CSS - Selector syntax</marquee></h1>
+        <h2> Element Selector</h2>
+
+
+
+         <div id="idselector">Id selector</div>
+
+          <!--class selector-->
+        <h1 class = "lets">lets apply specific css</h1>
+
+        <h1 class="A">apply class selector</h1>
+
+        <div class ="rect"></div>
+
+        <!--Selector
+            1.Element Selector
+            2.Grouping Selector
+            3.Class Selector
+            4.Id selector
+        -->
+
+
+        <!-- How many ways we can write CSS
+        1.Internal CSS
+        2.External CSS
+        3.Inline CSS -->
+        
+
+
+
+        <!--CSS  box model
+          1.margin
+          2.Border
+          3.Padding
+        -->
+    </body>    
+
+</html>    
+
+
+
+
+<!--Addiing background image
+    font style-->
+

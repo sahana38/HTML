@@ -1,0 +1,7 @@
+two rectangular box - box within a box(box with different colors).
+
+Make form to be placed at center.
+
+create square box.
+
+two rectangle box side by side.
