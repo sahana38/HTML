@@ -1,0 +1,18 @@
+.rect1{
+    border: 3px solid rgb(203, 231, 17);
+    height: 100px;
+    width:200px;
+    display: inline-block;
+    }
+
+.rect2{
+    border: 3px solid rgb(0, 157, 255);
+    height: 100px;
+    width:200px;
+    display:inline-block;
+
+}
+
+.ul{
+    list-style-type: none;
+}
