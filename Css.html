@@ -1,0 +1,116 @@
+<!--Limitations of HTML
+    Alignment
+    color
+    FontSize
+
+
+    syntax of CSS
+
+    CSS - Cascading Stylesheet
+selector {
+    property : value;
+}-->
+
+<!doctype html>
+<html>
+    <head>
+        <title>Cascading Stylesheet</title>
+
+        <style>
+           /* h1{
+                color : red;
+                Font-size : 50px;
+                text-transform : uppercase; 
+            }
+
+            h2{
+                color : blue;
+                font-size :100px;
+                text-transform : uppercase;
+            }*/
+
+            
+            h1,h2{
+                color : blue;
+                font-size :100px;
+                text-transform : uppercase;
+                /*capitalize is used to only starting letter will be capital*/
+            }
+
+            .classSelector{
+                color : green;
+                font-size : 60px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                text-decoration : underline;
+            }
+
+            #header{
+                color : black;
+                font-size: :40px;
+            }
+            .name{
+                color :blueviolet;
+                font-size : 60px;
+                text-transform: lowercase;
+            }
+            #feild{
+                color :brown;
+                font-size : 50px;
+            }
+            #branch{
+                color :blue;
+                text-decoration: underline;
+
+            }
+        </style>
+        <link rel ="Stylesheet" href=" cascd.css" > 
+    </head>
+    <body>
+        <!--reusability-->
+        <h1 style="color : purple">Sahana</h1>
+        <h1>Cascading Stylesheet</h1>
+        <h2>Grouping Selector</h2>
+        <h1 class = "classSelector">class Selector</h1>
+        <h1 class = "classSelector">class Selector</h1>
+        <h1 class = "name">Sahana</h1><!--change color-->
+        <h1 class = "address" id = "feild">Chittaragi</h1><!--change color-->
+        <h1 id = "branch">Computer Science</h1> <!--change color-->
+
+        <h3 id = "header"> Id selector</h3>
+
+        <h3 class = "classSelector" id = "header"> Id selector</h3>
+
+        <!--priority
+         Id selector,
+        class selector
+        Element selector-->
+
+        <!--priority  : Class Selector has a highest priority-->
+
+        <h2 class = "">Cascading Stylesheet<h2> 
+            <h1>Cascading Stylesheet<h1> 
+            
+
+        <!-- selector : {
+
+        }--> 
+        
+        <!--different Selector
+        1.Element Selector
+        2.Grouping Selector
+        3. class selector-->
+
+        <!--Types of CSS  three ways to write css
+        1)Internal 
+        2)External
+        3)Inline 
+        eg: <h1 style = "color:red"></h1>-->
+
+        <!-- CSS Box Model
+        margin 
+        border
+        padding-->
+
+
+    </body>
+</html>

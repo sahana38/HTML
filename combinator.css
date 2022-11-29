@@ -1,0 +1,133 @@
+div p{
+    color :green;
+}
+
+div > p{
+    color: red;
+}
+
+div + p{
+    color:blue;
+}
+
+div ~ p{
+    color :aqua;
+}
+
+/*color property*/
+/*position property - top, bottom, left,right
+1)static - default*/
+
+.static{
+    position: static;
+    left : 10px;
+}
+
+.relative{
+    position: absolute;
+    left : 50px;
+    top:0px;
+    bottom: 0px;
+}
+
+.absolute{
+    position:absolute;
+    left:50px;
+    top:0px;
+    bottom:0px;
+}
+
+.topleft{
+    position: absolute;
+    top:0px;
+    left: 10px;
+    color:aqua;
+}
+
+imageparent{
+    position: relative;
+}
+
+img{
+    border-radius:10%;
+}
+
+body{
+    margin:0px;
+}
+
+.sticky{
+    position:sticky;
+    top:0px;
+    color:red;
+    background-color: blueviolet;
+}
+
+.center{
+    position:absolute;
+    top:70px;
+    color: red;
+}
+
+.leftbottom{
+    position : absolute;
+    color :aqua;
+    left:110px;
+    top:150px;
+}
+
+.centertop{
+    position:absolute;
+    color:red;
+    left:110px;
+    top:0px;
+}
+
+.center1{
+    position:absolute;
+    color:red;
+    left:110px;
+    top:0px;
+}
+
+.centerbottom{
+    position :absolute;
+    color:brown;
+    left:110px;
+    
+    top:150px;
+}
+
+.topright{
+    position: absolute;
+    color:red;
+    left:200px;
+    top:70px;
+}
+
+.center2{
+    position :absolute;
+    color:red;
+    left:200px;
+    top:70px;
+}
+
+.bottomright{
+    position:absolute;
+    color:pink;
+    left:200px;
+    top:150px;
+}
+
+ul{
+    list-style-type: none;
+    color:white;
+    margin: 0px;
+}
+
+li{
+    padding: 3px ;
+    background-color: blue;
+}
+
+

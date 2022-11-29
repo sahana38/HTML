@@ -1,0 +1,25 @@
+.java{
+    color: brown;
+    background-color: aqua;
+    font-style: italic;
+}
+.html{
+    color:black;
+    background-color: blueviolet;
+    font-style: normal;
+}
+
+.CSS{
+    color:chartreuse;
+    background-color: black;
+    font-style: oblique;
+}
+
+body{
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%z;
+
+}

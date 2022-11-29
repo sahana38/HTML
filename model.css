@@ -1,0 +1,16 @@
+.box{
+    /*padding-left: apply space only on left side
+      padding-right,padding> to have space on surrounding*/
+
+    padding:30px 10px 30px 20px;
+    /*border:2px solid red;*/
+    border:3px dotted purple;
+    background-color: aqua;
+    margin:20px;
+}
+
+.rect{
+    border:2px solid green;
+    height: 200px;
+    width: 300px;
+}
