@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function displayImage(){
+            
+            let image = document.createElement("img")
+            image.src = "img.jpeg"
+            //document.body.appendChild(image)
+            image.style.width="20px";
+            image.style.height="20px";
+
+            let loadImage = document.getElementById("loadImage")
+            loadImage.appendChild(image)
+
+            
+            for (let x=0; x< 10; x++){
+                // const element = '<img src=' +images[x] + '>'
+                // document.querySelector('.images').innerHTML += element;
+                let image = document.createElement("img")
+                image.src = "img.jpeg"
+                image.style.width ="50px";
+                image.style.height="50px";
+                let loadImage = document.getElementById("loadImage")
+                loadImage.appendChild(image)
+
+            }
+
+            //Display paragraph from javaScript
+            let paragraph = document.createElement("p")
+            let text = document.createTextNode("Creating Paragraph Dynamically")
+            paragraph.appendChild(text)
+
+            console.log(paragraph)
+
+            let main = document.getElementById("main")
+            main.appendChild(paragraph)
+
+            
+        }
+    </script>
+</head>
+<body>
+    <div id="loadImage"></div>
+    
+    <button onclick="displayImage()">Display Image</button>
+    <div id = "main"></div>
+</body>
+</html>
